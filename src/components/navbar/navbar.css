@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+}
+
+.title .title-detail {
+    color: rgb(89, 206, 89);
+}
+
+.teste {
+    color: white;
+    font-size: 14px;
+}
