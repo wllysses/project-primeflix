@@ -21,7 +21,7 @@ function App() {
         setMovie(response.data.results)
         setPage(response.data.page)
         }).catch(err => {
-        console.log('Erro: ' + err)
+        console.log('Error: ' + err)
         })
     }, [page])
     
